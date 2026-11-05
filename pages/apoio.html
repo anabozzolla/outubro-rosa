@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivaz | Apoie a causa</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <div class="container">
+            <p class="logo">Vivaz</p>
+
+            <nav>
+                <ul class="menu">
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="prevencao.html">Entenda</a></li>
+                    <li><a href="apoio.html">Apoie a causa</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="titulo-pagina">
+            <div class="container">
+                <p class="etiqueta">FAÇA PARTE DESSA CAUSA</p>
+                <h1>Sua participação faz a diferença!</h1>
+                <p>
+                    Ajude a espalhar informação, incentivar o cuidado e fortalecer
+                    a conscientização.
+                </p>
+            </div>
+        </section>
+
+        <div class="container conteudo-apoio">
+
+            <section class="secao">
+                <h2>Junte-se ao Vivaz!</h2>
+
+                <p>
+                    O Outubro Rosa é uma causa que precisa da participação de todos.
+                    Compartilhar informações, participar de campanhas e incentivar
+                    conversas sobre saúde são algumas formas de contribuir.
+                </p>
+
+                <p>
+                    Preencha o formulário e demonstre seu interesse em apoiar
+                    essa iniciativa.
+                </p>
+            </section>
+
+            <section class="formulario-secao">
+                <h2>Cadastro de apoiadores</h2>
+
+                <form class="formulario">
+
+                    <fieldset>
+                        <legend>Informações pessoais</legend>
+
+                        <label for="nome">Nome completo:</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone">
+
+                        <label for="cidade">Cidade:</label>
+                        <input type="text" id="cidade" name="cidade" placeholder="Digite sua cidade">
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Participação</legend>
+
+                        <label for="apoio">Como deseja apoiar?</label>
+                        <select id="apoio" name="apoio">
+                            <option value="">Selecione</option>
+                            <option>Divulgando informações</option>
+                            <option>Participando de eventos</option>
+                            <option>Compartilhando nas redes sociais</option>
+                            <option>Apoiando instituições e projetos</option>
+                            <option>Outras formas</option>
+                        </select>
+
+                        <label for="frequencia">Com que frequência?</label>
+                        <select id="frequencia" name="frequencia">
+                            <option value="">Selecione</option>
+                            <option>Uma vez por mês</option>
+                            <option>Algumas vezes por mês</option>
+                            <option>Durante o Outubro Rosa</option>
+                            <option>Quando houver eventos</option>
+                        </select>
+
+                        <p class="pergunta-form">Disponibilidade:</p>
+
+                        <label class="opcao">
+                            <input type="radio" name="disponibilidade" value="semana">
+                            Durante a semana
+                        </label>
+
+                        <label class="opcao">
+                            <input type="radio" name="disponibilidade" value="fim">
+                            Finais de semana
+                        </label>
+
+                        <label class="opcao">
+                            <input type="radio" name="disponibilidade" value="ambos">
+                            Ambos
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Mensagem</legend>
+
+                        <label for="mensagem">Por que deseja apoiar essa causa?</label>
+                        <textarea id="mensagem" name="mensagem" rows="5"
+                            placeholder="Escreva sua mensagem..."></textarea>
+
+                        <label class="opcao">
+                            <input type="checkbox" name="autorizacao">
+                            Concordo com o uso das informações.
+                        </label>
+                    </fieldset>
+
+                    <button class="botao-form" type="submit">Enviar cadastro</button>
+
+
+                </form>
+            </section>
+
+        </div>
+
+    </main>
+
+    <footer class="rodape">
+        <p>Vivaz | Informação que transforma, cuidado que salva.</p>
+    </footer>
+
+</body>
+
+</html>
